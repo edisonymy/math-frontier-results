@@ -9,10 +9,16 @@ establish novelty, correctness or precedence over earlier work.
 
 ## Results
 
-No mathematical manuscript has been released yet. The first intended subject is
-cycles of prescribed even lengths under a large-girth hypothesis, with its exact
-scope and relationship to previous work stated in the manuscript. This repository
-does not announce a solution of the unrestricted Erdős–Gyárfás conjecture.
+| Result | Version and status | Complete proof |
+| --- | --- | --- |
+| Exact even cycle lengths in high-girth graphs of minimum degree three | [v1 — unrefereed, AI-assisted preprint](https://github.com/edisonymy/math-frontier-results/releases/tag/high-girth-even-cycles-v1) | [Manuscript](results/high-girth-even-cycles/v1/manuscript.md) |
+
+The first result applies to sufficiently large finite simple graphs of minimum
+degree at least three and girth at least $40\log\log n$. It guarantees every
+even cycle length in a specified interval proportional to $\log(2|E|)$, without
+regularity or expansion assumptions. See the manuscript for exact constants,
+attribution, prior work and review limitations. This repository does not announce
+a solution of the unrestricted Erdős–Gyárfás conjecture.
 
 Published notes will live under `results/<name>/v1/`, with subsequent versions in
 new directories. Cite a particular release and version rather than the changing
