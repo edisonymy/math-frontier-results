@@ -1,0 +1,15 @@
+name = "girth_verification"
+version = "0.1.0"
+defaultTargets = ["Girth"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "a3a10db0e9d66acbebf76c5e6a135066525ac900"
+
+[[lean_lib]]
+name = "Girth"

@@ -1,0 +1,218 @@
+✔ [3208/3273] Built Girth.MatrixWords (8.8s)
+✔ [3209/3273] Built Girth.Statement (10s)
+✔ [3210/3273] Built Girth.FiniteMoments (10s)
+⚠ [3211/3273] Built Girth.CauchyCoefficient (13s)
+warning: Girth/CauchyCoefficient.lean:59:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [3212/3273] Built Girth.JensenMean (13s)
+✔ [3213/3273] Built Girth.LogImaginaryAverage (13s)
+✔ [3214/3273] Built Girth.CyclicWords (8.4s)
+✔ [3215/3273] Built Girth.NonBacktrackingWalk (10s)
+✔ [3216/3273] Built Girth.WeightedMoments (10s)
+✔ [3217/3273] Built Girth.GraphBounds (12s)
+✔ [3218/3273] Built Girth.RealAxisMeanBound (12s)
+✔ [3219/3273] Built Girth.NonBacktracking (13s)
+✔ [3220/3273] Built Girth.GeometricTail (13s)
+✔ [3221/3273] Built Girth.CollisionUnion (13s)
+✔ [3222/3273] Built Girth.PowerOfTwo (14s)
+✔ [3223/3273] Built Girth.LocalBlock (14s)
+✔ [3224/3273] Built Girth.OperatorRealAxisBound (12s)
+✔ [3225/3273] Built Girth.Stochastic (12s)
+⚠ [3226/3273] Built Girth.TransitionWalk (12s)
+warning: Girth/TransitionWalk.lean:44:12: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  simp [M̵a̵t̵r̵i̵x̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hn] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/TransitionWalk.lean:73:12: This simp argument is unused:
+  SimpleGraph.Walk.getVert_cons
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵S̵i̵m̵p̵l̵e̵G̵r̵a̵p̵h̵.̵W̵a̵l̵k̵.̵g̵e̵t̵V̵e̵r̵t̵_̵c̵o̵n̵s̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3227/3273] Built Girth.MatrixMarker (12s)
+✔ [3228/3273] Built Girth.ReversalBound (12s)
+⚠ [3229/3273] Built Girth.FiniteChain (10s)
+warning: Girth/FiniteChain.lean:10:7: unused variable `w`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Girth/FiniteChain.lean:32:36: This simp argument is unused:
+  SimpleGraph.Walk.getVert_cons
+
+Hint: Omit it from the simp argument list.
+  simp only [walkOfFiniteChain, S̵i̵m̵p̵l̵e̵G̵r̵a̵p̵h̵.̵W̵a̵l̵k̵.̵g̵e̵t̵V̵e̵r̵t̵_̵c̵o̵n̵s̵,̵ ̵Nat.succ_ne_zero, ↓reduceIte, Nat.add_sub_cancel]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/FiniteChain.lean:32:67: This simp argument is unused:
+  Nat.succ_ne_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [walkOfFiniteChain, SimpleGraph.Walk.getVert_cons, N̵a̵t̵.̵s̵u̵c̵c̵_̵n̵e̵_̵z̵e̵r̵o̵,̵ ̵↓reduceIte, Nat.add_sub_cancel]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/FiniteChain.lean:32:85: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  simp only [walkOfFiniteChain, SimpleGraph.Walk.getVert_cons, Nat.succ_ne_zero, ̵↓̵r̵e̵d̵u̵c̵e̵I̵t̵e̵,̵
+          Nat.add_sub_cancel]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/FiniteChain.lean:33:8: This simp argument is unused:
+  Nat.add_sub_cancel
+
+Hint: Omit it from the simp argument list.
+  simp only [walkOfFiniteChain, SimpleGraph.Walk.getVert_cons, Nat.succ_ne_zero, ↓reduceIte,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/FiniteChain.lean:104:4: 'change q.getVert k = _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3230/3273] Built Girth.ComplexQuadratic (11s)
+✔ [3231/3273] Built Girth.EuclideanOperator (11s)
+✔ [3232/3273] Built Girth.OuterSpectrum (11s)
+✔ [3233/3273] Built Girth.JordanObstruction (11s)
+✔ [3234/3273] Built Girth.ResidualEstimate (13s)
+✔ [3235/3273] Built Girth.FrameBound (13s)
+✔ [3236/3273] Built Girth.Semisimplicity (10s)
+✔ [3237/3273] Built Girth.Resolvent (11s)
+✔ [3238/3273] Built Girth.OuterBasis (11s)
+✔ [3239/3273] Built Girth.SpectralData (10s)
+✔ [3240/3273] Built Girth.SlowModes (10s)
+✔ [3241/3273] Built Girth.Projector (11s)
+✔ [3242/3273] Built Girth.ActualFrame (12s)
+✔ [3243/3273] Built Girth.ResidualSpectrum (11s)
+✔ [3244/3273] Built Girth.SlowResolvent (16s)
+✔ [3245/3273] Built Girth.EuclideanLift (10s)
+✔ [3246/3273] Built Girth.SlowResolventFormula (11s)
+✔ [3247/3273] Built Girth.ReducedInverse (13s)
+✔ [3248/3273] Built Girth.ReducedResolvent (13s)
+✔ [3249/3273] Built Girth.ReducedComparison (18s)
+✔ [3250/3273] Built Girth.ResidualGenerating (18s)
+✔ [3251/3273] Built Girth.AnnulusBound (11s)
+✔ [3252/3273] Built Girth.ContourBound (12s)
+✔ [3253/3273] Built Girth.ResidualPower (13s)
+⚠ [3254/3273] Built Girth.ReturnAlgebra (10s)
+warning: Girth/ReturnAlgebra.lean:14:0: automatically included section variable(s) unused in theorem `GirthVerification.outgoingIndicator_apply`:
+  [Fintype V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Girth/ReturnAlgebra.lean:27:0: automatically included section variable(s) unused in theorem `GirthVerification.excessDegree_real_pos`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3255/3273] Built Girth.CollisionReturns (11s)
+✔ [3256/3273] Built Girth.ReturnSpectrum (11s)
+✔ [3257/3273] Built Girth.ReturnError (11s)
+⚠ [3258/3273] Built Girth.VertexWeightBound (11s)
+warning: Girth/VertexWeightBound.lean:56:42: This simp argument is unused:
+  EuclideanSpace.norm_sq_eq
+
+Hint: Omit it from the simp argument list.
+  simp [u, E̵u̵c̵l̵i̵d̵e̵a̵n̵S̵p̵a̵c̵e̵.̵n̵o̵r̵m̵_̵s̵q̵_̵e̵q̵,̵ ̵Pi.single_apply, ite_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/VertexWeightBound.lean:56:69: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [u, EuclideanSpace.norm_sq_eq, P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵ite_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/VertexWeightBound.lean:56:86: This simp argument is unused:
+  ite_pow
+
+Hint: Omit it from the simp argument list.
+  simp [u, EuclideanSpace.norm_sq_eq, Pi.single_apply,̵ ̵i̵t̵e̵_̵p̵o̵w̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3259/3273] Built Girth.CutoffMass (11s)
+✔ [3260/3273] Built Girth.ModeMoments (10s)
+⚠ [3261/3273] Built Girth.TraceEstimate (12s)
+warning: Girth/TraceEstimate.lean:64:0: automatically included section variable(s) unused in theorem `GirthVerification.euclideanEndLift_trace`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Girth/TraceEstimate.lean:69:0: automatically included section variable(s) unused in theorem `GirthVerification.euclideanEndLift_pow`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3262/3273] Built Girth.ReturnProducts (13s)
+⚠ [3263/3273] Built Girth.CycleCriterion (13s)
+warning: Girth/CycleCriterion.lean:27:12: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  simp [ht̵,̵ ̵h̵p, hgt, hgs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/CycleCriterion.lean:28:17: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵t̵,̵ ̵if_true, hp, hgt, hgs, and_false, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/CycleCriterion.lean:28:21: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  simp only [ht, i̵f̵_̵t̵r̵u̵e̵,̵ ̵hp, hgt, hgs, and_false, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/CycleCriterion.lean:32:15: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  simp only [h̵t̵,̵ ̵if_true, hp, hgt, false_and, and_false, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Girth/CycleCriterion.lean:32:19: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  simp only [ht, i̵f̵_̵t̵r̵u̵e̵,̵ ̵hp, hgt, false_and, and_false, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [3264/3273] Built Girth.FixedConstants (10s)
+⚠ [3265/3273] Built Girth.IntervalEstimates (11s)
+warning: Girth/IntervalEstimates.lean:5:44: unused variable `hn`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3266/3273] Built Girth.GirthRounding (10s)
+warning: Girth/GirthRounding.lean:30:0: automatically included section variable(s) unused in theorem `GirthVerification.girthLower_le_girth`:
+  [DecidableEq V]
+  [DecidableRel G.Adj]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] [DecidableRel G.Adj] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3267/3273] Built Girth.GirthDecay (11s)
+✔ [3268/3273] Built Girth.NumericalError (11s)
+⚠ [3269/3273] Built Girth.UniversalErrorBound (12s)
+warning: Girth/UniversalErrorBound.lean:52:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Girth/UniversalErrorBound.lean:52:17: 'first
+| assumption
+| positivity' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [3270/3273] Built Girth.UniversalThreshold (11s)
+✔ [3271/3273] Built Girth.Complete (11s)
+✔ [3272/3273] Built Girth (10s)
+Build completed successfully (3273 jobs).

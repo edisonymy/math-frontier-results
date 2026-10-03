@@ -1,0 +1,33 @@
+{
+  "status": "PASS_COMPLETE_PROOF_AND_LITERAL_STATEMENT_CHECK",
+  "checked_at_utc": "2026-10-03T19:27:11.951380+00:00",
+  "clean_project_build": true,
+  "theorems_audited": 320,
+  "final_declarations": [
+    "GirthVerification.exact_even_cycle_theorem",
+    "GirthVerification.exact_power_of_two_corollary"
+  ],
+  "axioms_of_both_final_declarations": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_matches_clean_build_report": true,
+  "literal_statement_type_examples_passed": true,
+  "statement_comparison": "verification.md; authoring-assistant comparison, not an independent human review",
+  "artifact_sha256": {
+    "verification.json": "da4de0d5f32471ffd031736665bb43ef6e6d5b963651b6e084d6681c419686be",
+    "build.txt": "825fbab34028c06e5a7a2cb58f2e964c3bef9e63978fe0ab79afeb674aacd085",
+    "axioms.txt": "3f7d70bcc1b4b7bc580ced7d6f660cc4e24297e120e25613cfc945988101664c"
+  },
+  "proof_changes": [
+    "Residual trace error N K rho^L",
+    "Ordered collision factor L"
+  ],
+  "nonclaims": [
+    "Unrestricted conjecture resolution",
+    "Optimized numerical size threshold",
+    "Exhaustive novelty or priority",
+    "Independent human peer review"
+  ]
+}

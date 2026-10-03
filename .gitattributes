@@ -3,4 +3,10 @@
 *.py text eol=lf
 *.tex text eol=lf
 *.bib text eol=lf
+*.lean text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+lean-toolchain text eol=lf
+.gitignore text eol=lf
 *.pdf binary

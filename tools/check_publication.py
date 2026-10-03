@@ -10,7 +10,7 @@ if actual != ROOT:
 files = subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT).decode('utf-8').split('\0')
 roots = {'README.md', 'PROCESS.md', '.gitignore', '.gitattributes'}
 prefixes = ('results/', 'templates/', 'tools/')
-extensions = {'.md', '.txt', '.tex', '.bib', '.json', '.py', '.csv', '.cff', '.pdf'}
+extensions = {'.md', '.txt', '.tex', '.bib', '.json', '.py', '.csv', '.cff', '.pdf', '.lean', '.toml'}
 patterns = [
     ('local user path', r'(?i)(?:[A-Z]:[\\/]Users[\\/]|/Users/|/home/)'),
     ('internal operational path', r'(?i)(?:private_campaign_packets[\\/]|output/browser-runtime[\\/]|\.claude[\\/]|\.codex[\\/])'),
@@ -21,7 +21,9 @@ count = 0
 for name in filter(None, files):
     count += 1
     file = ROOT / name
-    if (name not in roots and (not name.startswith(prefixes) or file.suffix.lower() not in extensions)):
+    lean_control = name.startswith('results/') and '/lean/' in name and file.name in {'lean-toolchain', '.gitignore'}
+    if (name not in roots and (not name.startswith(prefixes) or
+                              (file.suffix.lower() not in extensions and not lean_control))):
         errors.append(name + ': outside the public file selection')
         continue
     if not file.resolve().is_relative_to(ROOT) or file.is_symlink():
